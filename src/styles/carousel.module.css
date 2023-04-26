@@ -1,0 +1,131 @@
+/* .container {
+} */
+
+.head {
+  display: flex;
+  position: relative;
+  right: 16vw;
+  top: 8vh;
+}
+
+.head img {
+  width: 430px;
+  margin-right: 16.5vw;
+}
+
+.buttons {
+  z-index: 10;
+  position: relative;
+  top: 50vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  display: flex;
+}
+
+.buttons button {
+  width: 9vw;
+  height: 10vh;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0px;
+}
+
+.buttons button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+
+.buttons button:nth-child(1) {
+  float: left;
+  margin-right: 83vw;
+}
+
+.buttons button:nth-child(2) {
+  float: right;
+}
+
+.cornerMove {
+  position: absolute;
+  right: 98vw;
+  transition: 0.6s;
+  animation: move linear forwards 0.3s;
+}
+
+@keyframes move {
+  /* from {
+    position: absolute;
+    right: 49vw;
+  } */
+  100% {
+    position: absolute;
+    right: 49vw;
+  }
+}
+
+.moveBar {
+  background-color: rgb(112, 103, 103);
+  width: 80vw;
+  height: 1vh;
+  position: relative;
+  top: 90vh;
+  left: 9vw;
+  z-index: -1;
+}
+
+.barElement {
+  position: relative;
+  height: 1vh;
+  background-color: black;
+  width: 16vw;
+}
+
+.wineInfo {
+  position: relative;
+  z-index: 20;
+  bottom: 58vh;
+  left: 58vw;
+
+  width: 20vw;
+}
+
+.wineInfo {
+  text-align: left;
+}
+
+.wineInfo button {
+  font-size: 0.6em;
+  width: 8vw;
+  height: 5.5vh;
+  color: white;
+  background-color: #1e1e1e;
+  border-radius: 4px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.textAppear {
+  animation: show forwards 1.9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  opacity: 0;
+}
+
+.number-2 .animation {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes show {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

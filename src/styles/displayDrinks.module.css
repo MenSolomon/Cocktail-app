@@ -1,0 +1,18 @@
+.drinkCard {
+  width: 15vw;
+  height: 40vh;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.container ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container ul li {
+  margin-right: 5vw;
+  margin-left: 9vw;
+  margin-bottom: 5vw;
+}

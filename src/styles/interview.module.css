@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid black;
+  width: 22vw;
+  height: 30vh;
+  margin-left: 2vw;
+  margin-bottom: 10vh;
+  padding-left: 1vw;
+}
+
+.cardBox {
+  border: 1px solid black;
+  width: 23vw;
+  height: 22vh;
+  border-bottom: none;
+  margin-left: 2vw;
+}
